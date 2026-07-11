@@ -14,75 +14,56 @@ A resume can list AI skills. It can’t show the real work — how I actually bu
 
 ---
 
-## 2. Sitemap (3 pages)
+## 2. Sitemap (updated after pressure-test)
 
 ```
-Home  →  Work  →  Contact
-  │        │         │
-  │        │         └── email me (the one action)
-  │        └── real projects / cases (proof)
-  └── claim + short proof teaser + “email me” button
+Home  →  Work
+  │        │
+  │        └── 1 real case (stacked) + email CTA at the bottom
+  └── claim + specific teaser of the one case + email button
 ```
 
 | Page | Job | Earns its place? |
 |------|-----|------------------|
-| **Home** | State the claim fast; point to work; invite email | Yes — landing + claim |
-| **Work** | Show real projects so they believe the claim | Yes — the proof |
-| **Contact** | Make the one action obvious | Yes — the action |
+| **Home** | Claim + specific teaser of the one real project + email me | Yes |
+| **Work** | One real case (problem → what I did → result) + email CTA after the case | Yes |
+| **Contact** | Dropped as its own page | Folded into Home + bottom of Work |
 
-**Not adding:** About, Blog, Services, etc. — they don’t help the one action yet.
+**Cases:** Ship with **1 real case** for now (FlyRank ML — ranking which content pages to review first from search data). Add a second only when it’s real — not to hit a number.
 
-### Pressure-test (against claim + one action)
+**Home teaser (specific, not plural):**  
+Something like: built a model/list that ranks which content pages to fix first, using search data — not a vague “I build AI tools.”
 
-- Does it walk a hiring manager from landing → believing → emailing? **Yes.**
-- Does every page serve “I make AI useful for a business”? **Yes.**
-- What’s missing for later weeks? Real case write-ups and a live URL (Week 2–5). That’s fine for Week 1.
-- **One change noted:** Keep Contact as its own page so the email action is never buried; also put an “email me” button on Home so they don’t have to hunt.
+### Pressure-test notes (what I changed)
+
+From Claude’s review:
+
+1. Dropped separate **Contact** page — email CTA lives on Home and at the bottom of Work (point of maximum belief).
+2. Ship with **one** real case, not a padded second case.
+3. Home teaser must name the actual work (ranking pages from search data), not oversell “projects/cases.”
+4. Later: put a clear number in the result if I have one; add 1–2 lines of context so one case reads as a pattern, not a one-off.
 
 ---
 
-## 3. AI workspace setup (you do this once)
+## 3. AI workspace
 
-1. Open **Claude** (or ChatGPT / Gemini).
-2. Create a **Project** (Claude/ChatGPT) or **Gem** (Gemini).
-3. Name it something like: `FlyRank portfolio` or `AI n-able`.
-4. Paste this into **custom instructions**:
-
-```
-Who I am: Syed — building a portfolio during the FlyRank AI Internship (ML track).
-
-My proof statement: I make AI useful for a business — practical work, not just theory. I’m proving this to a hiring manager who wants someone who can actually ship useful stuff, so they’ll email me.
-
-Act as a tutor: explain your reasoning. Interview me before writing. Keep my voice: direct, plain, no buzzwords. No “passionate,” “results-driven,” or “dynamic.”
-```
-
-5. Run this pressure-test prompt inside the Project and save a screenshot:
-
-```
-This is my proof statement: I make AI useful for a business — practical work, not just theory. I’m proving this to a hiring manager who wants someone who can actually ship useful stuff, so they’ll email me.
-
-This is my sitemap: Home (claim + email button) → Work (cases) → Contact (email).
-
-Does this sitemap walk my one person from landing, to believing me, to taking my one action, and does it actually prove my claim? Tell me which pages earn their place, which are wasted, and what is missing. Be specific, not encouraging.
-```
-
-6. Note one change from the answer (example already above: email button on Home + Contact page).
+- Tool: Claude Project named for this build (e.g. FlyRank portfolio)
+- Custom instructions include proof statement + tutor / plain-voice rules
+- Ran sitemap pressure-test inside the Project; saved the reply (screenshot for thread)
 
 ---
 
 ## 4. What to post in your track thread
 
-Post all of this:
-
-1. The **proof statement** + **why CV isn’t enough** (section 1 above)  
-2. A **photo/screenshot of your sitemap sketch** (draw the 3 boxes on paper or in Notes, then photo it — or screenshot the sitemap section above)  
-3. A **screenshot of your AI Project/Gem** showing custom instructions + the pressure-test prompt and reply  
+1. Proof statement + why CV isn’t enough (section 1)  
+2. Photo/screenshot of this sitemap (2 boxes: Home → Work)  
+3. Screenshot of Claude Project instructions + pressure-test chat  
 
 ---
 
-## Checklist before you submit
+## Checklist
 
-- [ ] Proof statement pasted in thread  
-- [ ] Sitemap photo/screenshot attached  
-- [ ] AI workspace screenshot attached  
-- [ ] One sitemap change noted from the pressure-test  
+- [ ] Proof statement in thread  
+- [ ] Sitemap photo/screenshot  
+- [ ] Claude Project + pressure-test screenshot  
+- [ ] Noted changes from pressure-test (above)  
