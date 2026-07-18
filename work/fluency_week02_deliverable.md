@@ -60,20 +60,3 @@ Want to talk about practical AI work? Email me.
 I make AI useful for a business. Example: a ranked list that helps a content team decide which pages to review first from search data.
 
 [Email me]
-
----
-
-## What to submit (InternHQ)
-
-1. **Deliverable links:** URL to this file (GitHub or local writeup once pushed)  
-2. **Files:** screenshots if needed (voice card in AI Project; this doc)  
-3. **Notes (optional):** Week 2 — 1 case framed from interview; voice card at top; before/after included  
-
-### Checklist
-
-- [ ] Voice card added to Claude / ChatGPT Project  
-- [ ] Case has three beats (problem → what I did → what came of it)  
-- [ ] Before/after shows the difference from generic AI copy  
-- [ ] Points at one audience + one action (hiring manager → email)  
-- [ ] Read out loud once; cut anything you wouldn’t say  
-- [ ] Submitted on the Week 2 assignment card  
